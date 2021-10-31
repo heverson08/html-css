@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em html5</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1><!--sempre use imagens com direitos autorais livres-->
+    <p>Tente abrir esses sites em vários dispositivos diferentes, ou tente diminuir o tamanho do seu navegador. </p>
+    <picture> 
+        <source media="(max-width:750px )" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="imagem flexivel">
+    </picture>
+     <h1>Vamos falar sobre áudios</h1><!--sempre use audios com direitos autorais livres-->
+     <p>Vamos aprender a reproduzir áudios em HTML5</p>
+    <audio preload="metadata" controls autoplay loop>
+        <source src="midia/happy-mistake.mp3" type="audio/mpeg">
+       
+    </audio>
+    <audio controls preload="metadata" autoplay loop>
+        <source src="midia/Interstellar Mood - Nico Staf.mp3" type="audio/mpeg">
+    </audio>
+    <audio controls autoplay preload="metadata" loop>
+     <source src="midia/Lights - Patrick Patrikios.mp3" type="audio/mpeg">
+    </audio>
+    <p>Caso seu navegador nao consiga reproduzir os audios que estão acima,<a href="midia/happy-mistake.mp3" download=""> clique aqui</a> e baixe o arquivo do audio</p>
+    
+    <h1>Colocando videos nos nossos sites.</h1><!--sempre use videos com direitos autoais livres nos seus sites-->
+    <video width="560" poster="imagens/thumb.jpg" controls autoplay loop>
+        <source src="videos/meu-video.mp4" type="video/mp4">
+        <source src="videos/Meu-Video-1.m4v" type="video/m4v">
+        <source src="videos/Meu-Video-2.webm" type="video/webm">
+    </video>
+    <p>Ifelizmente seu navegador nao tem compatibilidade com o arquivo do video, voçê pode baixar o arquivo <a href="videos/meu-video-1.m4v" download="videos/Meu-video.mp4">clicando aqui</a></p>
+
+
+</body>
+</html>

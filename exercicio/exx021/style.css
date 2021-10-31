@@ -1,0 +1,140 @@
+@charset "UTF-8";
+
+
+body{
+    background-color: white;
+    background-attachment: fixed;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   
+   
+}
+main{
+    
+  
+    margin:0px 30px 10px 30px ;
+    background-color: rgb(36, 34, 33);
+    padding: 5px 5px 20px 5px;
+    border-radius: 0px 0px 10px 10px ;
+    
+
+}
+
+
+header{
+    padding:5px 55px 0px 55px;
+    margin: 10px 30px 0px 30px;   
+    border: 10px; 
+    border-radius: 10px 10px 0px 0px;
+    background-color: rgb(36, 34, 33);
+}
+header > h1 {
+    background-color: rgba(86, 116, 75, 0.842);
+    color: black;
+    border-radius: 5px;
+    text-align: center;
+    width: 700px;
+
+}
+header > nav{
+    border-radius: 5px;
+    background-color: white;
+    text-align: left;
+    padding-left: 5px;
+    width:695px;
+   
+}
+
+
+a:hover{
+    text-decoration: underline;
+    color: rgba(52, 97, 52, 0.712);
+    display:block;
+}
+
+a:visited{
+    color: darkred;
+}
+a::before{
+    content: '<';
+}
+a::after{
+    content: '>';
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+a{
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bolder;
+    
+  
+}
+h2{
+    text-align: center;
+    background-color:rgba(86, 116, 75, 0.842);
+    width: 700px;
+    margin:0px 50px ;
+    border-radius: 5px;
+}
+article#artigo1 > p{
+    text-align: justify;
+    background-color: white;
+    color: rgb(15, 32, 15);
+    font-weight: bolder;
+    width: 693px; 
+    border-radius: 5px;
+    padding-left: 4px;
+    padding-right: 4px;
+    margin: 4px 50px ;
+    
+    
+}
+
+article#artigo2 > p{
+    text-align: justify;
+    background-color: white;
+    color: rgb(15, 32, 15);
+    font-weight: bolder;
+    width: 693px;
+    border-radius: 5px;
+    padding-left: 4px;
+    padding-right: 4px;
+    margin: 4px 50px 5px 50px;
+    
+   
+}
+
+aside#periferico {
+    background-color: white;
+    color:rgb(15, 32, 15) ;
+    border-radius: 5px;
+    width: 500px;
+    font-weight: bolder;
+    padding-left: 4px;
+    padding-right: 4px;
+    text-align: justify;
+    margin: 5px 50px;
+}
+aside#periferico2 {
+    background-color: white;
+    color:rgb(15, 32, 15) ;
+    border-radius: 5px;
+    width: 693px;
+    font-weight: bolder;
+    padding-left: 4px;
+    padding-right: 4px;
+    text-align: justify;
+    margin: 5px 50px;
+}
+
+footer{
+    text-align: right;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px 30px 10px 30px;
+}

@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Luckiest Guy';
+    src: url('./fonte/LuckiestGuy-Regular.ttf') format('truetype');
+}
+:root{
+    --fonte1: 'Luckiest Guy';
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    min-width: 280px;
+    max-width: 100%;
+
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 40px 0px;
+}
+
+header h1{
+    font-size: 5em;
+    padding-bottom: 10px;
+    font-family: var(--fonte1);
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.fora{
+    font-family: cursive;
+    font-size: 2em;
+    font-style: italic;
+    font-weight: bold;
+    padding-left: 90px;
+}
+
+.dentro{
+    
+    padding: 70px 0px;
+    
+    
+}
+#joaninha{
+background-image: url('imagens/background001.jpg');
+background-position: center right;
+background-attachment: fixed;
+background-size: cover;
+
+}
+
+#folhas{
+    background-image: url('imagens/background002.jpg');
+    background-position: center right;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#escuro{
+    background-color: rgba(0, 0, 0, 0.162);
+    color: white;
+    padding-left: 10px;
+    
+}
+#fundo-escuro{
+    background-color: rgba(0, 0, 0, 0.162);
+    color: white;
+    padding-left: 10px;
+}
+footer{
+    background-color:rgba(0, 0, 0, 0.152) ;
+    color: rgba(0, 0, 0, 0.357);
+    font-style: italic;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+    margin-top: 80px;
+}

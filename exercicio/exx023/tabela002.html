@@ -13,6 +13,13 @@
             width: 500px;
             border-collapse: collapse;
         }
+        caption{
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
+            
+        }
         td, th{
             border: 1px solid black;
             padding: 10px;
@@ -20,6 +27,9 @@
         thead, tfoot{
             background-color: gray;
             color: white;
+        }
+        tbody > tr:nth-child(even){
+            background-color: lightgray;
         }
         .num{
             text-align: right;
@@ -29,10 +39,11 @@
 <body>
     <h1>Tabelas Grandes</h1>
     <table>
+        <caption>População da Unidades Federativas</caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 50px;"> População</th>
             </tr>
         </thead>
         <tbody>
@@ -100,11 +111,55 @@
                 <td>Mato Grosso</td>
                 <td class="num">3.567.234	</td>
             </tr>
+            <tr>
+                <td>Rio Grande do Norte</td>
+                <td class="num">3.560.903</td>
+            </tr>
+            <tr>
+                <td>Alagoas</td>
+                <td class="num">3.365.351</td>
+            </tr>
+            <tr>
+                <td>Piauí</td>
+                <td class="num">3.289.290</td>
+            </tr>
+            <tr>
+                <td>Distrito Federal</td>
+                <td class="num">3.094.325</td>
+            </tr>
+            <tr>
+                <td>Mato Grosso do Sul</td>
+                <td class="num">2.839.188</td>
+            </tr>
+            <tr>
+                <td>Sergipe</td>
+                <td class="num">2.338.474</td>
+            </tr>
+            <tr>
+                <td>Rondônia</td>
+                <td class="num">1.815.278</td>
+            </tr>
+            <tr>
+                <td>Tocantins</td>
+                <td class="num">1.607.363</td>
+            </tr>
+            <tr>
+                <td>Acre</td>
+                <td class="num">906.876</td>
+            </tr>
+            <tr>
+                <td>Amapá</td>
+                <td class="num">877.613</td>
+            </tr>
+            <tr>
+                <td>Roraima</td>
+                <td class="num">652.713</td>
+            </tr>
         </tbody>
         <tfoot>
             <tr>
-                <th>Total de Habitantes</th>
-                <td class="num"><strong>0000</strong></td>
+                <th scope="row">Total de Habitantes</th>
+                <td class="num"><strong>232.224.601</strong></td>
             </tr>
         </tfoot>
     </table>
